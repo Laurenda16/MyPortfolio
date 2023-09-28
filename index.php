@@ -16,7 +16,7 @@
 <body>
     <!-------en tete-------->
     <header>
-        <a href="#" class="logo">Cod<span>e</span>r.</a>
+        <a href="#" class="logo"><span>E</span>dh <span>T</span>ech</a>
 
         <ul class="navlist">
             <li><a href="#home" class="active">Accueil</a></li>
@@ -31,7 +31,29 @@
 
     </header>
     <!--------Fin en tete------->
+    <!-------Accueil-------->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slice">
+                <span class="one">Hello</span>
+                <span class="two">I ' m</span>
+            </div>
+            <h1>Laurenda</h1>
+            <h3>Developpeur <span>Junior.</span> </h3>
+            <p>Pasionnée par le Developpement Web,<br> Je suis Etudiante en 3 ième année de Licence en Informatique Parcours
+                <br><span> MIAGE </span> :Methodes Informatiques Appliquées à la Gestion des Entreprises
+            </p>
+            <div class="button">
+                <a href="#" class="btn">Dire Bonjour</a>
+                <a href="#" class="btn2"><span><i class='bx bx-play'></i></span>Mes Projets </a>
 
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-------Accueil-------->
 
 
 
