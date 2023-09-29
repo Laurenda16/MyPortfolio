@@ -19,6 +19,7 @@
     --main-color:#ff4d05;
     --big-font:5rem;
     --h1-font:2rem;
+    --h2-font:1.5rem;
     --p-font:1.1rem;
 }
 body
@@ -30,7 +31,7 @@ body
   /***ScrollBAR***/
   ::-webkit-scrollbar /**largeur du scrollbar***/
   {
-    width:12px;
+    width:10px;
   }
   ::-webkit-scrollbar-thumb/***la couleur applique**/
   {
@@ -99,7 +100,7 @@ display: none;
 /************Acceuil************/
 section
 {
-padding: 160px 15% 130px;
+padding: 160px 15% 130px 7%;
 }
 .home
 {
@@ -212,10 +213,50 @@ transform: scale(0.9);
 }
 .btn2 span i:hover
 {
-transform: scale(1.1) translateY(5px);
+transform: scale(1.1) translate(5px);
 }
 
 .about-img img{
-    width: 25%;
-    height: 80px;
+    max-width: 530px;
+    width: 80%;
+    height: auto;
+    margin-left: 25px;
+    border-radius: 15px;
+   
 }
+/* partie a revoir*/
+header .sticky
+{
+background: var(--bg--color);
+border-bottom: 1px solid #dadada;
+padding:12px 15% ;
+}
+/**/
+.about
+{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 1.5rem;
+align-items: center;
+}
+.about-text h2{
+   font-size:2rem;
+   line-height: 1;
+   
+}
+.about-text h4{
+    font-size: 24px;
+   font-weight: 600;
+   color: var(--text-color);
+   line-height: 1.7;
+   margin: 15px 0 30px;
+    
+ }
+
+ .about-text p{
+  color: var(--second-color);
+  font-size: var(--p-font);
+  line-height: 1.8;
+  margin-bottom: 3rem;
+    
+ }
