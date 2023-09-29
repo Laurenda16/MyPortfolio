@@ -22,7 +22,7 @@
             <li><a href="#home" class="active">Accueil</a></li>
             <li><a href="#about">Moi</a></li>
             <li><a href="#services">Service</a></li>
-            <li><a href="#porfolio">Portfolio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">contact</a></li>
         </ul>
         <div class="bx bx-menu" id="menu-icon">
@@ -113,75 +113,77 @@
         </div>
     </section>
     <!------Fib Service-------->
-
-    <!------Porfolio------->
+    <!------Portfolio-------->
     <section class="portfolio" id="portfolio">
         <div class="main-text">
-            <p>Portfolio</p>
-            <h2><span>Latest</span>Project</h2>
-        </div>
+            <p>MY Porfolio</p>
+            <h2><span>Latest</span>Projet</h2>
 
+        </div>
         <div class="portfolio-content">
             <div class="row">
-                <img src="./image/img1.jpg">
+                <img src="./image/img1.jpg" alt="">
                 <div class="layer">
-                    <h5>Maquette Web</h5>
-                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
-                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                    <h5>Visual Code</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
+                    <a href="#"> <i class="box box-link"></i></a>
                 </div>
+
             </div>
             <div class="row">
-                <img src="./image/img3.jpg">
+                <img src="./image/img1.jpg" alt="">
                 <div class="layer">
-                    <h5>Maquette Web</h5>
-                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
-                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                    <h5>Visual Code</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
+                    <a href="#"> <i class="box box-link"></i></a>
                 </div>
+
             </div>
             <div class="row">
-                <img src="./image/img2.jpg">
+                <img src="./image/img1.jpg" alt="">
                 <div class="layer">
-                    <h5>Maquette Web</h5>
-                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
-                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                    <h5>Visual Code</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
+                    <a href="#"> <i class="box box-link"></i></a>
                 </div>
+
             </div>
             <div class="row">
-                <img src="./image/img1.jpg">
+                <img src="./image/img1.jpg" alt="">
                 <div class="layer">
-                    <h5>Maquette Web</h5>
-                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
-                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                    <h5>Visual Code</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
+                    <a href="#"> <i class="box box-link"></i></a>
                 </div>
+
             </div>
             <div class="row">
-                <img src="./image/img3.jpg">
+                <img src="./image/img1.jpg" alt="">
                 <div class="layer">
-                    <h5>Maquette Web</h5>
-                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
-                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                    <h5>Visual Code</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
+                    <a href="#"> <i class="box box-link"></i></a>
                 </div>
+
             </div>
             <div class="row">
-                <img src="./image/img2.jpg">
+                <img src="./image/img1.jpg" alt="">
                 <div class="layer">
-                    <h5>Maquette Web</h5>
-                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
-                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                    <h5>Visual Code</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
+                    <a href="#"> <i class="box box-link"></i></a>
                 </div>
+
             </div>
-
-
-
-
-
-
-
-
 
 
         </div>
+
     </section>
+
+    <!------Fin Service-------->
+
+
 
     <!------javacsript lien--------->
 
