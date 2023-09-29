@@ -39,7 +39,7 @@
                 <span class="two">I ' m</span>
             </div>
             <h1>Laurenda</h1>
-            <h3>Developpeur <span>Junior.</span> </h3>
+            <h3>Developpeuse <span>Junior.</span> </h3>
             <p>Pasionnée par le Developpement Web,<br> Je suis Etudiante en 3 ième année de Licence en Informatique Parcours
                 <br><span> MIAGE </span> :Methodes Informatiques Appliquées à la Gestion des Entreprises
             </p>
@@ -53,7 +53,17 @@
     </section>
 
 
-    <!-------Accueil-------->
+    <!-------fin Accueil-------->
+    <!-------Apropos-------->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./image/image2.jpg" alt="">
+        </div>
+    </section>
+
+
+
+    <!-------Fin apropos-------->
 
 
 
