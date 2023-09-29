@@ -15,7 +15,7 @@
 
 <body>
     <!-------en tete-------->
-    <header>
+    <header class="sticky">
         <a href="#" class="logo"><span>E</span>dh <span>T</span>ech</a>
 
         <ul class="navlist">
@@ -39,7 +39,7 @@
                 <span class="two">I ' m</span>
             </div>
             <h1>Laurenda</h1>
-            <h3>Developpeuse <span>Junior.</span> </h3>
+            <h3>Developpeur <span>Junior.</span> </h3>
             <p>Pasionnée par le Developpement Web,<br> Je suis Etudiante en 3 ième année de Licence en Informatique Parcours
                 <br><span> MIAGE </span> :Methodes Informatiques Appliquées à la Gestion des Entreprises
             </p>
@@ -85,23 +85,27 @@
                     <i class='bx bx-mobile-alt'></i>
                 </div>
                 <h2>Web Design</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nostrum maxime laudantium quos sapiente quas officia odio autem quidem necessitatibus excepturi, asperiores voluptas voluptatibus facere nobis illum temporibus consequuntur praesentium?</p>
+                <p>Lore quas fidudcujcjhofficia odio autem quidem necessitatibus excepturi, asperiores voluptas voluptatibus facere nobis illum temporibus consequuntur praesentium?</p>
                 <a href="#" class=" read">Plus</a>
             </div>
+
+
             <div class="box">
                 <div class="s-icons">
                     <i class='bx bx-devices'></i>
                 </div>
                 <h2>Realisation maquette</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nostrum maxime laudantium quos sapiente quas officia odio autem quidem necessitatibus excepturi, asperiores voluptas voluptatibus facere nobis illum temporibus consequuntur praesentium?</p>
+                <p>Lorem ippiente quas officia odio autem quidem necessitatibus excepturi, asperiores voluptas voluptatibus facere nobis illum temporibus consequuntur praesentium?</p>
                 <a href="#" class=" read">Plus</a>
             </div>
+
+
             <div class="box">
                 <div class="s-icons">
                     <i class='bx bx-code-alt'></i>
                 </div>
                 <h2>Conception Site Web</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nostrum maxime laudantium quos sapiente quas officia odio autem quidem necessitatibus excepturi, asperiores voluptas voluptatibus facere nobis illum temporibus consequuntur praesentium?</p>
+                <p>Loresapiente quas officia odio autem quidem necessitatibus excepturi, asperiores voluptas voluptatibus facere nobis illum temporibus consequuntur praesentium?</p>
                 <a href="#" class=" read">Plus</a>
             </div>
 
@@ -110,12 +114,83 @@
     </section>
     <!------Fib Service-------->
 
+    <!------Porfolio------->
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <p>Portfolio</p>
+            <h2><span>Latest</span>Project</h2>
+        </div>
 
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="./image/img1.jpg">
+                <div class="layer">
+                    <h5>Maquette Web</h5>
+                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
+                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./image/img3.jpg">
+                <div class="layer">
+                    <h5>Maquette Web</h5>
+                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
+                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./image/img2.jpg">
+                <div class="layer">
+                    <h5>Maquette Web</h5>
+                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
+                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./image/img1.jpg">
+                <div class="layer">
+                    <h5>Maquette Web</h5>
+                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
+                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./image/img3.jpg">
+                <div class="layer">
+                    <h5>Maquette Web</h5>
+                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
+                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./image/img2.jpg">
+                <div class="layer">
+                    <h5>Maquette Web</h5>
+                    <p>Lore facere nobis illum temporibus consequuntur praesentium?</p>
+                    <a href="#" class="read"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </section>
 
     <!------javacsript lien--------->
 
-    <script type="text/javascript" src="/js/script.js">
-
+    <script type="text/javascript">
+        /*   alert("hello");
+        let mouse = document.querySelector("header");
+        window.addEventListener("scrool", function() {
+            mouse.classList.toggle("sticky", window.scrollY > 100);
+        }); */
     </script>
 
     </script>
