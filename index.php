@@ -15,7 +15,7 @@
 
 <body>
     <!-------en tete-------->
-    <header class="sticky">
+    <header>
         <a href="#" class="logo"><span>E</span>dh <span>T</span>ech</a>
 
         <ul class="navlist">
@@ -126,12 +126,21 @@
                 <div class="layer">
                     <h5>Visual Code</h5>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
-                    <a href="#"> <i class="box box-link"></i></a>
+                    <a href="#"> <i class='box box-link-external'></i></a>
                 </div>
 
             </div>
             <div class="row">
                 <img src="./image/img1.jpg" alt="">
+                <div class="layer">
+                    <h5>Visual Code</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits aliasadipisicing elits aliasgitadipisicing elits alias.</p>
+                    <a href="#"> <i class="box box-link"></i></a>
+                </div>
+
+            </div>
+            <div class="row">
+                <img src="./image/img3.jpg" alt="">
                 <div class="layer">
                     <h5>Visual Code</h5>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
@@ -140,7 +149,7 @@
 
             </div>
             <div class="row">
-                <img src="./image/img1.jpg" alt="">
+                <img src="./image/img2.jpg" alt="">
                 <div class="layer">
                     <h5>Visual Code</h5>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
@@ -149,7 +158,7 @@
 
             </div>
             <div class="row">
-                <img src="./image/img1.jpg" alt="">
+                <img src="./image/img3.jpg" alt="">
                 <div class="layer">
                     <h5>Visual Code</h5>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
@@ -158,16 +167,7 @@
 
             </div>
             <div class="row">
-                <img src="./image/img1.jpg" alt="">
-                <div class="layer">
-                    <h5>Visual Code</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
-                    <a href="#"> <i class="box box-link"></i></a>
-                </div>
-
-            </div>
-            <div class="row">
-                <img src="./image/img1.jpg" alt="">
+                <img src="./image/img2.jpg" alt="">
                 <div class="layer">
                     <h5>Visual Code</h5>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elits alias.</p>
@@ -187,12 +187,8 @@
 
     <!------javacsript lien--------->
 
-    <script type="text/javascript">
-        /*   alert("hello");
-        let mouse = document.querySelector("header");
-        window.addEventListener("scrool", function() {
-            mouse.classList.toggle("sticky", window.scrollY > 100);
-        }); */
+    <script type="text/javascript" src="./js/script.js">
+
     </script>
 
     </script>
