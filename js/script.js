@@ -1,4 +1,6 @@
-const header = document.querySelector("header");
-window.addEventListener("scroll", function () {
-  header.classList.toggle("sticky", window.scrollY > 100);
+const entete = document.querySelector("header");
+
+window.addEventListener("scroll", function   () {
+  entete.classList.toggle("sticky", window.scrollY > 100);
 });
+   

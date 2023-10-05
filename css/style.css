@@ -50,7 +50,7 @@ align-items: center;
 justify-content: space-between;
 padding: 20px 15% ;
 border-bottom: 1px solid transparent;
-transition: all 45s ease;
+/*transition: all 45s ease;*/
 }
 .logo
 {
@@ -100,7 +100,7 @@ display: none;
 /************Acceuil************/
 section
 {
-padding: 160px 15% 130px 7%;
+padding: 8% 15% 25px 8%;
 }
 .home
 {
@@ -225,11 +225,11 @@ transform: scale(1.1) translate(5px);
    
 }
 /* partie a revoir*/
-header .sticky
+header.sticky
 {
-background:#8d8d8d;
+background:black;
 
-border-bottom: 2px solid #cecece;
+border-bottom: 1px solid #ffffff1a;
 
 padding:12px 15% ;
 }
@@ -349,11 +349,15 @@ color: var(--text-color);
 /**PortFolio*/
 .portfolio-content
 {
+
    display:grid;
    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
    align-items: center;
-   gap: 2.5rem;
+   gap: 5rem;
+
    margin-top: 5rem;
+   padding-left:150px ;
+   
 }
 .row
 {
@@ -361,12 +365,77 @@ color: var(--text-color);
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    
 
 }
+
+
+
 .row img{
+    
     width: 100%;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
     
+}
+.layer
+{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.1), #ff2200);
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden ;
+    padding: 0 40px;
+    transition: height 0.5s;
+    align-items: center;
+    justify-content: center;
+
+}
+.layer h5
+{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+
+
+}
+
+.layer p
+{
+    color: var(--second-color);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+.layer i{
+    color: var(--main-color);
+margin-top: 20px;
+font-size: 20px;
+background: var(--text-color);
+width: 60px;
+height:60px ;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+}
+
+
+
+.row:hover img{
+    transform: scale(1.1);
+
+}
+
+.row:hover .layer
+{
+height: 100%;
+
+
+
 }
