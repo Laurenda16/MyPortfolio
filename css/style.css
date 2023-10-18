@@ -589,4 +589,24 @@ textarea
    color: var(--text-color);
 
 }
+/*************media query*******************/
+
+@media (max-width:1480px) {
+    header{
+        padding: 12px 2.5%;
+        transition:  .1s;
+    }
+    header.sticky{
+        padding: 10px;
+        transition: .1s;
+    }
+    section{
+        padding: 110px 3px  60px;
+
+    }
+    .end{
+        padding: 15px 3%;
+    }
+    
+}
 
