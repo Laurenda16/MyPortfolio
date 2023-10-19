@@ -672,7 +672,7 @@ padding: 5% 12% 22px 5%;
         display: block;
         margin: 17px;
         font-size: 20px;
-        transition:  all .45s ease;
+        transition:  all .44s ease;
         color: var(--text-color);
     }
     .navlist a:hover
