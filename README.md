@@ -1,3 +1,5 @@
 # MyPortfolio(En cours)
  Creation de Mon portfolio 
- en production
+Presentation de mon parcours
+Mes Soft skills
+
