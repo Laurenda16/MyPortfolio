@@ -1,5 +1,4 @@
-# MyPortfolio(En cours)
- Creation de Mon portfolio 
-Presentation de mon parcours
-Mes Soft skills
+# MyPortfolio
+Creation de Mon portfolio,présentation de mon parcours
+Mes Softskills
 
