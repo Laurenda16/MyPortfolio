@@ -529,6 +529,80 @@ header.sticky {
     color: var(--main-color);
 }
 
+/**JEU*/
+.main {
+    position: relative;
+    background: var(--main-color);
+    width: 100%;
+    padding: 60PX;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+
+.main p {
+    margin: 25px 0;
+}
+
+.main input {
+    width: calc(75% - 100PX);
+    padding: 12px 3px;
+    outline: 0;
+    border: 2px solid #0B6FDC;
+    border-radius: 60PX 0 0 60PX;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+#message {
+    color: white;
+}
+
+.main h4 {
+    margin: 20px 0;
+    margin-bottom: 40px;
+    line-height: 60PX;
+    color: #999;
+}
+
+.main button {
+    width: 75px;
+    border: 1px solid #0f9300;
+    background-color: #02c02b;
+    color: #fff;
+    border-radius: 0 60PX 60PX 0;
+    cursor: pointer;
+    padding: 12px 5px;
+
+}
+
+.main #link {
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.main a {
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 16px 50px;
+    text-decoration: 0;
+    color: #000000;
+    transition: 0.5s;
+    border-radius: 60px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.main a:hover {
+
+    background-color:black;
+    color: #ffffff;
+}
+
+/*
 .contac-form form {
     position: relative;
 }
@@ -583,7 +657,7 @@ textarea {
     transform: scale(1.1);
     cursor: pointer;
 }
-
+*/
 /************************************/
 .end {
     padding: 20px 15%;
