@@ -1,4 +1,4 @@
 # MyPortfolio
-Creation de Mon portfolio,présentation de mon parcours
-Mes Softskills
+Creation de Mon portfolio
+Pas encore totalement responsive, j'ai des corrections à apporté
 
