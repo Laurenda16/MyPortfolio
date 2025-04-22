@@ -1,3 +1,3 @@
 # MyPortfolio
 Creation de Mon portfolio
-Pas encore totalement responsive
+Pas encore totalement responsive mais au point
